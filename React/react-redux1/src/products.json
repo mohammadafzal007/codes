@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Classic T-Shirt",
+      "price": 19.99,
+      "image": "https://example.com/images/classic-tshirt.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Running Shoes",
+      "price": 59.99,
+      "image": "https://example.com/images/running-shoes.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Leather Wallet",
+      "price": 29.99,
+      "image": "https://example.com/images/leather-wallet.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Smart Watch",
+      "price": 199.99,
+      "image": "https://example.com/images/smart-watch.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Headphones",
+      "price": 89.99,
+      "image": "https://example.com/images/bluetooth-headphones.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Water Bottle",
+      "price": 15.99,
+      "image": "https://example.com/images/water-bottle.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Yoga Mat",
+      "price": 24.99,
+      "image": "https://example.com/images/yoga-mat.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sunglasses",
+      "price": 49.99,
+      "image": "https://example.com/images/sunglasses.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Backpack",
+      "price": 69.99,
+      "image": "https://example.com/images/backpack.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Leather Belt",
+      "price": 25.99,
+      "image": "https://example.com/images/leather-belt.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Laptop Sleeve",
+      "price": 34.99,
+      "image": "https://example.com/images/laptop-sleeve.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Portable Charger",
+      "price": 39.99,
+      "image": "https://example.com/images/portable-charger.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Wireless Mouse",
+      "price": 19.99,
+      "image": "https://example.com/images/wireless-mouse.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Desk Lamp",
+      "price": 44.99,
+      "image": "https://example.com/images/desk-lamp.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Noise Cancelling Earbuds",
+      "price": 129.99,
+      "image": "https://example.com/images/noise-cancelling-earbuds.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Fitness Tracker",
+      "price": 79.99,
+      "image": "https://example.com/images/fitness-tracker.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Electric Toothbrush",
+      "price": 49.99,
+      "image": "https://example.com/images/electric-toothbrush.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Instant Camera",
+      "price": 89.99,
+      "image": "https://example.com/images/instant-camera.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Camping Tent",
+      "price": 129.99,
+      "image": "https://example.com/images/camping-tent.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Mountain Bike",
+      "price": 299.99,
+      "image": "https://example.com/images/mountain-bike.jpg"
+    }
+  ]
+  

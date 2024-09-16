@@ -1,0 +1,42 @@
+.container{
+    background-color: rgb(49, 66, 66);
+    margin:10px;
+    border-radius: 10px;
+    text-align: left;
+    padding:10px;
+    color:rgb(0,255,234)
+}
+
+.question{
+    display:flex;
+    justify-content: left;
+
+    
+}
+
+button{
+    widht:40px;
+    height:40px;
+    background-color: rgb(49, 66, 66);
+    color:red;
+    font-weight:bold;
+    font-size:20px;
+    outline:none;
+    cursor:pointer;
+    border:none;
+    padding-top:20px;
+    padding-right:20px;
+
+}
+
+
+.answer{
+    color:rgb(163, 161, 30);
+    margin:20px;
+    font-size:20px;
+}
+
+
+.arrow{
+    transform:rotate(90deg)
+}

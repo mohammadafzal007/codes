@@ -1,0 +1,71 @@
+.container{
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: grey;
+width:400px;
+flex-direction: column;
+}
+
+
+input{
+    width:200px;
+    border:none;
+    height:30px;
+    outline:none;
+    margin:20px;
+}
+
+.suggestbox{
+    background-color: rgb(109, 71, 71);
+    color:white;
+    width:200px;
+    height:150px;
+    font-size:10px;
+    overflow-y:auto;
+    margin:20px auto ;
+    border-radius: 10px;
+}
+
+.box{
+    margin:10px;
+    width:150px;
+    height:20px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 2px;
+    border:1px solid black;
+    padding:5px;
+}
+
+.box:hover{
+    background-color: aquamarine;
+    transition:linear;
+    color:black;
+    
+}
+
+
+.product{
+display:flex;
+justify-content: space-around;
+gap:10px;
+margin:10px;
+border:2px solid rgb(61, 50, 50);
+border-radius:10px;
+padding:10px;
+}
+
+.product button{
+    width:40px;
+    heigth:40px;
+    cursor:pointer;
+    background-color: rgb(238, 208, 208);
+    font-weight: bold;
+    
+}
+
+
+.strikethrough1{
+    text-decoration: line-through;
+}

@@ -1,0 +1,79 @@
+[
+    {
+    "id":1,
+    "alphabet":"M",
+    "color":"red"
+
+},
+{
+    "id":2,
+    "color":"yellow",
+    "alphabet":"L"
+
+},
+{
+    "id":3,
+    "color":"black"
+    ,
+    "alphabet":"K"
+
+},
+{
+    "id":4,
+    "color":"green",
+    "alphabet":"J"
+
+},
+{
+    "id":5,
+    "color":"red",
+    "alphabet":"I"
+
+},
+{
+    "id":6,
+    "color":"yellow",
+    "alphabet":"H"
+
+},
+{
+    "id":7,
+    "color":"blue",
+    "alphabet":"G"
+
+},
+{
+    "id":8,
+    "color":"green",
+    "alphabet":"F"
+
+},
+{
+    "id":9,
+    "color":"blue",
+    "alphabet":"E"
+
+},
+{
+    "id":10,
+    "color":"yellow",
+    "alphabet":"D"
+
+},    {
+    "id":11,
+    "color":"blue",
+    "alphabet":"C"
+
+},
+{
+    "id":12,
+    "color":"red",
+    "alphabet":"B"
+
+},
+{
+    "id":13,
+    "color":"yellow",
+    "alphabet":"A"
+}
+]

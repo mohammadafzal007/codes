@@ -1,0 +1,72 @@
+.container{
+    text-align:center;
+}
+
+input{
+    width:300px;
+    height:40px;
+    font-size:20px;
+    font-weight:bold;
+    outline: none;
+}
+.board{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+}
+.todo{
+    width:33%;
+    height:400px;
+}
+.doing{
+    width:33%;
+    height:400px;
+    margin:0 20px;
+}
+.done{
+    width:33%;
+    height:400px;
+}
+
+.todo-col{
+    background-color: aquamarine;
+    padding:10px 10px;
+}
+.doing-col{
+    background-color: rgb(217, 255, 127);
+    padding:10px 10px;
+}
+.done-col{
+    background-color: rgb(255, 127, 244);
+    padding:10px 10px;
+}
+
+.task-items{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:20px;
+    cursor:grab;
+    padding:10px;
+    border:0.2px solid rgb(224, 214, 214);
+    margin:10px;
+
+}
+
+.task-items:hover{
+background-color: rgb(95, 85, 75);
+}
+
+.btn{
+    margin:10px;
+    width:40px;
+    height:40px;
+    padding:4px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+    border-radius: 50%;;
+}

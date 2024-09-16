@@ -1,0 +1,614 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <span style="background-color: red;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quisquam 
+            dolor ratione nesciunt, aperiam maxime autem impedit, 
+            corrupti id fuga asperiores beatae temporibus quas, saepe 
+            laudantium deserunt? Consequuntur, enim ipsa.
+            Lorem ipsum dolor sit amet consectetur adipis
+ 
+            
+        </span>
+        <div style="background-color:red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. N
+            ecessitatibus magni alias fuga sapiente? Beatae, numquam cum, cumque vero, 
+            voluptatum quasi quaerat ab delectus minima dolorum quod accusantium possimus amet distinctio!</div>
+
+        <script>
+            // console.log(this)  ;
+            // "use strict";
+            // eval("let y=2+5; ");
+            // // console.log(y);
+            // var public=1;
+            // console.log(public)
+            // x=3;
+            // console.log(x)
+            // "use strict";
+// function myFunction() {
+//   console.log(this); // undefined
+// }
+// myFunction();
+
+// const add=()=>{
+//     console.log(arguments);   //shown error for aruments is undefined
+// }
+// function add()
+// {
+//     console.log(arguments); //not shown error
+// }
+// add(1,2,3);
+
+// //pattern 1
+// let n=5;
+// for(let i=1;i<=n;i++)
+// {
+//     for (let j=1;j<=i;j++)
+// {
+
+//     document.write("*");
+// }
+//     document.write("<br>");
+// }
+
+
+// for(let i=n;i>=1;i--)
+// {
+//     for (let j=i;j>=1;j--)
+//     {
+//     document.write("*");
+// }
+// document.write("<br>");
+// }
+
+
+// let arrr5=[1,4,4,5,3,6,4,7,7,8,2,1];
+// function sortie(arr){
+//     return new Set(arr.sort((a,b)=>a-b))  //for descending b-a
+// }
+
+// console.log(sortie(arrr5));
+
+// console.log(Math.max(...arrr5));
+// console.log(Math.min(...arrr5));
+
+
+
+// sorting
+// const data=[1140000,3900,44449,25]
+// for(let i=0;i<data.length;i++)
+// {
+//     for (let j=0;j<data.length;j++){
+//         if(data[j]>data[j+1]){
+//             let temp=data[j];
+//             data[j]=data[j+1];
+//             data[j+1]=temp
+//         }
+//     }
+   
+// }
+// console.log(data)
+
+
+// using sort()
+// console.log(data.sort((a,b)=>a-b))   //b-a fro descending
+// console.log("Sorted Array " ,data.sort() )  
+// // reverse array without reverse method
+// const reverse_array=[]
+// for (let i=data.length-1;i>=0;i--)
+// {
+//     reverse_array.push(data[i]);
+// }
+// console.log("Reverse Array is without method ", reverse_array)
+
+
+
+//reverse array
+// console.log("Reverse Array is with method ", data.reverse())
+// console.log(data.join("*"));
+
+// //string
+// // reverse string using split("").reverse().join("");
+// const str="madam"
+// console.log(str.split("").reverse().join(""))
+
+// //ispalindrone
+// function ispalindrone(str){
+//     return str===str.toLowerCase().split("").reverse().join("")
+// }
+// console.log("String is palindrone ",ispalindrone(str))
+
+//factorial
+// function fact(n){
+//     if(n==0 || n==1)
+// {
+//     return 1;
+// }
+// else 
+// {
+//     return n * fact(n-1);
+// }
+// }
+
+// console.log(fact(5))
+// //even using filter
+// const even_number=data.filter(item=>item%2==0)
+// console.log("even Number ",even_number)
+
+//prime number
+// function isprime(n){
+//     if (n===1){
+//         return false;
+//     }
+//     for(let i=2;i*i<=n;i++)
+//     {
+//       if(n%i==0)
+//       {
+//         return false;
+//       }
+//     }
+//     return true;
+// }
+// console.log("Number is prime ",isprime(789))
+
+//fibonaci
+// function fibonacci(n){
+//     let memo=[0,1]
+//     for(let i=2;i<=n;i++)
+// {
+//     memo[i]=memo[i-1]+memo[i-2]
+// }
+// return memo;
+// }
+
+// console.log("Fibonaci sequence ",fibonacci(5))
+//
+// reverse number
+
+// function reverseNumber(n){
+//     let reverse=0;
+//     while(n!=0)
+//     {
+//         let remainder=n%10;
+//         reverse=reverse*10+remainder;
+//         n=Math.floor(n/10);
+//     }
+//     return reverse;
+// }
+// console.log("Reverse NUmber is",reverseNumber(234));
+
+//largest number
+// let largeNumber=data[0];
+// function largestNumber(data)
+// {
+
+//     for(let i=0;i<data.length-1;i++)
+//     {
+//         if(data[i]>=largeNumber)
+//         {
+//             largeNumber=data[i];
+//         }
+//         return largeNumber;
+//     }
+// }
+// console.log("largest number is",largestNumber(data))
+// let log;
+// console.log(log||"afzal")
+// console.log(typeof(log))
+
+
+// function outer()
+// {
+//     let x=9;
+//     function inner()
+//     {
+//         console.log(x)
+//     }
+//     return inner
+
+// }
+// let ou=outer()
+// ou();
+// console.log(ou());
+
+let no=5;
+document.write("right angle")
+document.write("<br/>")
+for(let i=1;i<=no;i++)
+    {
+        for (let j=1;j<=i;j++)
+        {
+            document.write("* ")
+        }
+        document.write("<br/>")
+    }
+
+    document.write("<br/>")
+    document.write("ulta right angle")
+    document.write("<br/>")
+
+
+
+for(let i=1;i<=no;i++) 
+{
+    for(let j=no-i;j>=0;j--)
+{
+    document.write("* ")
+}
+
+document.write("<br/>")
+}   
+
+
+document.write("left right angle")
+document.write("<br/>")
+
+
+for(let i=1;i<=no;i++)
+{
+    for (let j=1;j<=no-i;j++)
+{
+    document.write("&nbsp;&nbsp;")
+}
+for(let k=1;k<=i;k++)
+{
+    document.write("*")
+}
+document.write("<br/>")
+}
+
+
+document.write("pyramid")
+document.write("<br/>")
+//upper traingle
+for(let i=1;i<=no;i++)
+{
+    for (let j=1;j<=no-i;j++)
+{
+    document.write("&nbsp;&nbsp;")
+}
+for(let k=1;k<=i;k++)
+{
+    document.write("*"+"&nbsp;&nbsp;")
+}
+document.write("<br/>")
+}
+
+// lower triangle
+
+
+for (let i=1;i<=no;i++)
+{
+    for(let j=1;j<=i;j++)
+{
+    document.write("&nbsp;&nbsp")
+}
+for(let k=1;k<=no-i;k++)
+{
+    document.write("*"+"&nbsp;&nbsp;")
+}
+document.write("<br/>")
+}
+
+
+
+//invert pyramid
+
+for (let i=1;i<=no;i++)
+{
+    for(let j=1;j<=i;j++)
+{
+    document.write("&nbsp;&nbsp")
+}
+for(let k=1;k<=no-i;k++)
+{
+    document.write("*"+"&nbsp;&nbsp;")
+}
+document.write("<br/>")
+}
+
+//number pattern
+document.write("number pattern 1")
+document.write("<br/>")
+document.write("<br/>")
+for(let i=1;i<=no;i++)
+{
+    for(let j=1;j<=i;j++)
+{
+    document.write(i);
+}
+document.write("<br/>")
+}
+
+
+
+document.write("np2")
+document.write("<br/>")
+document.write("<br/>")
+//
+for(let i=1;i<=no;i++)
+{
+    for(let j=1;j<=i;j++)
+{
+    document.write(j);
+}
+document.write("<br/>")
+}
+
+
+document.write("np3")
+document.write("<br/>")
+document.write("<br/>")
+
+for(let i=1;i<=no;i++)
+{
+    for(let j=1;j<=i;j++)
+{
+    document.write(j);
+}
+document.write("<br/>")
+}
+
+
+
+// square pattern
+
+for(let i=1;i<=no;i++)
+{
+    for (let j=1;j<=no;j++)
+{
+    if(i==no || i==1 || j==1 || j==no)
+    {
+    document.write("*")
+    }
+    else{
+    document.write("&nbsp;&nbsp;")
+     }
+}
+document.write("<br/>")
+}
+
+
+
+// hollow diamond
+document.write("<br/>")
+document.write("Hollow PYramid")
+document.write("<br/>")
+for (let i = 1; i <= no; i++) {
+ 
+  for (let j = 1; j <= no - i; j++) {
+    document.write("&nbsp;&nbsp;")
+  }
+  for (let k = 1; k <= 2 * i - 1; k++) {
+    if (k === 1 || k === 2 * i - 1) {
+        document.write("*")// Only borders
+    } else {
+        document.write("&nbsp;&nbsp;") // Inside the diamond
+    }
+  }
+  document.write("<br/>")
+}
+
+
+document.write("...........-----------------------------------")
+document.write("<hr/>")
+
+for(let i=1;i<=4;i++)
+{
+    for (let j=1;j<=4;j++)
+  {
+    document.write("&nbsp;&nbsp;")
+    if(j==i)
+    {
+        document.write("*")
+    }
+    else{
+        document.write("&nbsp;&nbsp;")
+    }
+  }
+  document.write("<br/>")
+}
+
+
+// for(let i=1;i<=4;i++)
+// {
+//     for (let j=4;j>=0;j--)
+//   {
+//     if(j==i)
+//     {
+//         document.write("*")
+//     }
+//     else{
+//         // document.write("-")
+//         document.write("&nbsp;&nbsp;")
+//     }
+//   }
+//   document.write("<br/>")
+// }
+
+         for (let i = 0; i < 4; i++)
+        {
+            document.write("&nbsp;&nbsp;")
+
+            for (let j = 0; j < i * 2; j++) {
+                document.write("&nbsp;&nbsp;")
+            }
+            document.write("*")
+            document.write('<br/>');
+        }
+    
+
+
+//armstromg number
+
+
+let ano=371;
+let temp=ano;
+let sum=0;
+let lengthofdig=ano.toString().length
+while(temp>0)
+{
+    let rem=temp%10;
+    sum+=rem**lengthofdig;
+    temp=parseInt(temp/10)
+}
+     if (sum==ano)
+      {
+    console.log("Yes")
+     }
+     else
+     {
+    console.log("No")
+     }
+
+
+
+
+//occurence of a letter in a string
+let str="Afzalaal"
+// let letter='a';
+// let count=0;
+// for(let i=0;i<=str.length;i++)
+// {
+//     if(str[i]==letter)
+// {
+//     count++;
+// }
+// }
+// console.log(`Letter "${letter}" has ${count} times occur`)
+//finbonacci seties 
+// dry run
+
+// let a=0
+// let b=1
+// let n=10;
+// let fibarr=[0,1]
+// for(let i=0;i<n;i++)
+// {
+//     let temp=a+b;
+//     a=b;
+//     b=temp;
+//     // console.log(temp)
+//     fibarr.push(temp)
+// }
+// console.log(fibarr)
+
+// using recursion
+
+// function fib(n){
+//     if (n==1)
+// {
+//     return n
+// }
+// else{
+//     return (fib(n-1)+fib(n-2));
+// }
+// }
+// let n=5;
+// for(let i=0;i<n;i++){
+
+//     console.log(fib(i))
+// }
+// program to display fibonacci sequence using recursion
+let num =10
+function fibonacci(num) {
+    if(num <2) {
+        return num;
+    }
+    else {
+        return fibonacci(num-1) + fibonacci(num - 2);
+    }
+}
+// take nth term input from the user
+if(num <=0) {
+    console.log('Enter a positive integer.');
+}
+else {
+    for(let i = 0; i < num; i++) {
+        console.log(fibonacci(i));
+    }
+}
+
+
+//finding vowels
+
+let str1="Afzale"
+let vowels=[]
+let list=["a","e","i","o","u","A","E","I","O","U"]
+
+for(let i of str1)
+{
+if(list.includes(i)){
+    vowels.push(i)
+}
+
+}
+console.log(vowels)
+
+// reverse number
+let num1=123;
+let reversenum=parseInt(num1.toString().split("").reverse().join(""))
+console.log(reversenum)
+console.log(typeof reversenum)
+//using logic
+let temp1=num1;
+let reversenum1=0
+while(temp1>0){
+    let rem=temp1%10;
+    reversenum1=reversenum1*10+rem
+    temp1=parseInt(temp1/10)
+}
+console.log(reversenum1)
+
+let arr1=[1,2,3]
+let arr2=[5,6,7]
+let arr3=[1,2,3]
+console.log(arr1+arr2)
+console.log(arr1.concat(arr2))
+console.log([...arr1,...arr2])
+console.log(arr1===arr3)
+console.log([1,2,3]==[1,2,3])
+console.log([1,2,3]==[1,2,3])
+console.log(1+"2")
+console.log("2"+1)
+console.log("2"-1)
+console.log("2"+1)
+console.log([]==[])
+// console.log([]===[])
+
+(function() {
+	// IIFE code block
+	var localVar = 'This is a local variable';
+	console.log(localVar); // Output: This is a local variable
+})();
+
+
+
+//
+let arr4=[12,45,34,78,456]
+function secondlargest(arr)
+{
+      let largest=arr4[0];
+      let secondlargest=arr[0];
+      for(let i=0;i<arr.length;i++)
+{
+       if(arr4[i]>largest)
+       {
+    secondlargest=largest
+    largest=arr[i];
+
+       }
+      else if(arr4[i]>secondlargest)
+       {
+      secondlargest=arr4[i];
+
+       }
+}
+return secondlargest
+}
+console.log(secondlargest(arr4))
+</script>
+
+    </body>
+    </html>

@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  padding: 5px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  z-index: 1;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  height: 25px;
+  width: auto;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 95%;
+  font-weight: 400;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.navbg {
+  background-color: #001d6d;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px; /* Hide the sidebar by default */
+  width: 250px;
+  height: 100%;
+  background-color: #001d6d;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  padding-top: 50px; /* Space at the top to match the logo height */
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.open {
+  right: 0; /* Show sidebar when open */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Make sure the links stack vertically */
+}
+
+.sidebar ul li {
+  padding: 15px 20px;
+  margin: 5px 0;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ffffff;
+  color: #001d6d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Sidebar toggle button */
+.sidebar-toggle {
+  background-color: #001d6d;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  display: none;
+  cursor: pointer;
+  width: 50px;
+}
+
+.sidebar-toggle:hover {
+  background-color: #0032a0;
+}
+
+.profilebtn {
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color:#041dcd;
+  font-size: 20px;
+}
+
+.profilebtn:hover {
+  color: #ffffff;
+  background-color: #041dcd;
+}
+
+.logoutbtn {
+  color: white;
+  background-color: #eb0404;
+  cursor: pointer;
+}
+
+.logoutbtn:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+@media (max-width: 750px) {
+  nav ul {
+    display: none; /* Hide nav links on mobile */
+  }
+
+  .sidebar-toggle {
+    display: block;
+    margin-right: -10px;    
+  }
+}
+
+@media (min-width: 751px) {
+  .sidebar {
+    display: none; /* Hide sidebar on larger screens */
+  }
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px; /* Hide the sidebar by default */
+  width: 250px;
+  height: 100%;
+  background-color: #001d6d;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  padding-top: 50px; /* Space at the top to match the logo height */
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.open {
+  right: 0; /* Show sidebar when open */
+}
+
+/* Close button */
+.sidebar-close {
+  background-color: #001d6d;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width:50px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Make sure the links stack vertically */
+}
+
+.sidebar ul li {
+  padding: 15px 20px;
+  margin: 5px 0;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ffffff;
+  color: #001d6d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Sidebar toggle button */
+.sidebar-toggle {
+  background-color: #001d6d;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+  background-color: #0032a0;
+}
+
+@media (max-width: 750px) {
+  nav ul {
+    display: none; /* Hide nav links on mobile */
+  }
+
+  .sidebar-toggle {
+    display: block; /* Show sidebar toggle button */
+  }
+}
+
+@media (min-width: 751px) {
+  .sidebar {
+    display: none; /* Hide sidebar on larger screens */
+  }
+}

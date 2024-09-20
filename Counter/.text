@@ -1,0 +1,76 @@
+// //importing
+// import express from "express";
+// import dotenv from "dotenv";
+// import mongoose from "mongoose";
+// import bookRoute from "./Route/book.route.js";
+// import cors from "cors";        //middleware 
+// const app = express();
+
+// //dotenv configuration
+// dotenv.config();
+// const PORT = process.env.PORT || 4000;
+// const URI=process.env.MONGODBURI;
+
+
+// //connecting database
+// try{
+// mongoose.connect(URI,{
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//  });
+//  console.log("Database Connected Succesfully")
+// }
+// catch(error)
+// {
+//   console.log("Error",error);
+// }
+
+// //express server
+// app.use(cors());
+// app.use("/book",bookRoute);
+
+// //server listening on port
+// app.listen(PORT, () => {
+//   console.log(`Server is listening on port ${PORT}`)
+// })
+
+
+
+
+
+
+
+// import mongoose from "mongoose";
+
+// //database schema
+// const bookSchema=mongoose.Schema({
+// name:String,
+// price:Number,
+// category:String,
+// title:String,
+// image:String
+// })
+
+// //creating database model or collection
+// const Book=mongoose.model("Book",bookSchema);
+
+
+// export default Book;
+
+
+
+
+
+
+// import Book from "../model/book.model.js"
+
+// export const getBook=async (req,res)=>{
+//     try{
+// const book=await Book.find();
+// res.status(200).json(book);
+//     }
+//     catch(error){
+// console.log("Error: ",error);
+// res.status(500).json(error);
+//     }
+// }

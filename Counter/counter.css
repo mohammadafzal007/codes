@@ -1,0 +1,39 @@
+.title{
+    text-align:center;
+    margin:50px;
+    color:rgb(1, 22, 15);
+text-decoration: underline;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.btn{
+    width:100px;
+    height:40px;
+    background-color: rgb(192, 180, 180);
+    font-size:20px;
+    border-radius:20px;
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+    transition:all linear 0.2s;
+}
+
+#value{
+font-size:70px;
+
+}
+body{
+    background-color: rgba(15, 166, 172, 0.582);
+}
